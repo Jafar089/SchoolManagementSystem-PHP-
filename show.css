@@ -1,0 +1,33 @@
+.card{
+    position: fixed;
+    top: 63px;
+    height: 400px;
+    width: 890px;
+    left: 236px;
+
+
+}
+
+.back button{
+    background-color:  rgb(27, 41, 78);
+    color: white;
+    font-size: 13px;
+    width: 65px;
+    height: 28px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.left{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.left p{
+    font-weight: bold;
+}
+
+.form-group{
+    font-weight:normal;
+}

@@ -1,3 +1,9 @@
+<style>
+    <?php
+    include 'dashbody.css';
+    ?>
+</style>
+
 <div class="con">
     <div class="box">
         <?php

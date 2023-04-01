@@ -21,7 +21,7 @@ if(isset($_POST['addRecord']))
     else
     {
       $responseMsg = addRecords($fname, $lname, $email, $phone);
-      header("Refresh: 1.2; url=/school/students");
+      header("Refresh: 1.2; url=/school/student");
     }
 }
 
@@ -33,7 +33,7 @@ if(isset($_POST['addRecord']))
 
   <div class="card-title">
     <div class="back">
-      <a href="/school/students"><button>Go back</button></a>
+      <a href="/school/student"><button>Go back</button></a>
     </div>
     <div class="left">
       <p> Student&nbsp;|&nbsp;Create </p>
@@ -64,7 +64,7 @@ if(isset($_POST['addRecord']))
           value="<?php echo isset($_POST['phone']) ?>">
       </div>
       <div class="mt-3">
-        <a href="/school/students"><button type="submit" class="btn btn-success" name="addRecord">Create</button></a>
+        <a href="/school/student"><button type="submit" class="btn btn-success" name="addRecord">Create</button></a>
       </div>
     </form>
 

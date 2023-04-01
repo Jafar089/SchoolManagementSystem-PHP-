@@ -18,14 +18,14 @@ if (isset($_POST['updateRecord'])) {
     $phone = $_POST['phone'];
 
     $responseMsg = updateRecords($id,$fname, $lname, $email, $phone);
-    header("Refresh: 1.2; url=/school/students");
+    header("Refresh: 1.2; url=/school/student");
 }
 ?>
 <div class="card">
 
     <div class="card-title">
         <div class="back">
-            <a href="/school/students"><button>Go back</button></a>
+            <a href="/school/student"><button>Go back</button></a>
         </div>
         <div class="left">
             <p> Student&nbsp;|&nbsp;Edit </p>

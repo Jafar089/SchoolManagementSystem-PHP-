@@ -1,8 +1,10 @@
 .card{
     position: fixed;
     top: 63px;
-    height: 400px;
-    width: 890px;
+    /* height: 400px;
+    width: 890px; */
+    height: 76%;
+    width: 77%;
     left: 236px;
 
 

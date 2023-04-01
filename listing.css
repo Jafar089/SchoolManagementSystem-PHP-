@@ -2,8 +2,8 @@
     position: fixed;
     top: 63px;
     left: 240px;
-    height: 400px;
-    width: 890px;
+    height: 76%;
+    width: 76%;
 
 }
 
@@ -52,4 +52,16 @@
 .table thead tr th{
     background-color: rgb(27, 41, 78);
     color: white;
+}
+
+
+.input-group{
+    position: fixed;
+    top: 25%;
+    right: 6.5%;
+    width: 210px;
+}
+
+.pagination{
+    margin-left: 2%;
 }
